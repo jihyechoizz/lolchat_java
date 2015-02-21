@@ -7,8 +7,16 @@
 		<link rel="stylesheet" href="asserts/lib/css/bootstrap.min.css">
 		<link rel="stylesheet" href="asserts/lib/css/bootstrap-theme.min.css">
 		<link rel="stylesheet" href="asserts/css/index.css">
-		<script src="asserts/js/bootstrap.min.js"></script>
-		<script src="asserts/js/jquery-2.1.3.min.js"></script>
+		<script src="asserts/lib/js/bootstrap.min.js"></script>
+		<script src="asserts/lib/js/jquery-2.1.3.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				alert("123");
+				$('#zzz').click(function(){
+					alert("zz");
+				});
+			});
+		</script>
 	</head>
 	<body>
 		<div class="container">
@@ -18,6 +26,7 @@
 				<input type="password" class="form-control" placeholder="LOL USER PW" name="pw">
 				<!-- <input type="text" class="form-control" placeholder="RIOT API KEY" name="key">
 				<label class="checkbox">API Key는 Riot Developer 웹 페이지를 통해 발급받을 수 있습니다.</label> -->
+				<input type="button" id="zzz" value="zzz">
 				<button class="btn btn-lg btn-primary btn-block" type="submit">LOGIN</button>
 			</form>
 		</div> <!-- /container -->
