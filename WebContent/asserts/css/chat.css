@@ -1,6 +1,7 @@
 @CHARSET "UTF-8";
 
-body {
-  background-color: #123478;
-}
+body { background-color: #123478; }
 
+!important.container { wdith: 980px; }
+.col-sm-3 { background-color: #eee; }
+.col-sm-9 { background-color: #333; }

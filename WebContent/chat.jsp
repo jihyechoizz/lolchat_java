@@ -13,7 +13,12 @@
 	</head>
 	<body>
 		<div class="container">
-			
+			<div class="col-sm-3">
+				dddd
+			</div>
+			<div class="col-sm-9">
+				fff
+			</div>
 		</div> <!-- /container -->
 	</body>
 </html>
