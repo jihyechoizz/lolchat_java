@@ -6,4 +6,6 @@ public class TestUserInfo {
 //	public static String pw = "rlwns3579";
 	public static String id = "yunbanji";
 	public static String pw = "chlwP3";
+	
+	
 }
