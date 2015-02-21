@@ -12,6 +12,11 @@
 		<link rel="stylesheet" href="asserts/css/index.css">
 	</head>
 	<body>
+	<% 
+		if(request.getParameter("error").equals("true")){
+			%> <script>alert("ID/PW 를 확인하세요.")</script> <%
+		}
+	%>
 		<div class="container">
 			<form class="form-signin" method="post" action="login.jsp">
 				<h2 class="form-signin-heading">Sign in</h2>

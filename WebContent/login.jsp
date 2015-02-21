@@ -1,7 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8" %>
 <jsp:useBean id="user" class="vo.User" scope="session" />
-<jsp:setProperty name="user" property="*" />
+<%@ page import="connection.RiotLoginCert" %>
+<% 
+	user.setId(request.getParameter("id"));
+	user.setPw(request.getParameter("pw"));
+%>
 <!doctype html>
 <html>
 	<head></head>
@@ -9,16 +13,15 @@
 	<%
 	// ID & PW null check
 	if((user.getId() == null || user.getId().length() == 0) || (user.getPw() == null || user.getPw().length() == 0) ){
-		%>	
-		<script>
-			alert("Check ID & PW");
-		</script>
-		<%
-			response.flushBuffer();
-			response.sendRedirect("index.jsp");
+			response.sendRedirect("index.jsp?error=true");
 	} else {
-		// TODO : Server Response		
-	
+		// TODO : Server Response	
+		if(! RiotLoginCert.checkValidAccount(user)) {
+			response.sendRedirect("index.jsp?error=true");
+		} else {
+			session.setAttribute("id", user.getId());
+			response.sendRedirect("chat.jsp");
+		}
 	}
 	%>
 		

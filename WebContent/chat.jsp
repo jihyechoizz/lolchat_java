@@ -13,7 +13,15 @@
 	</head>
 	<body>
 		<div class="container">
-			
+			<div class="col-sm-3">
+				<ul>
+					<li class="active"><a href="#">친구</a></li>
+					<li><a href="#">채팅</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-9">
+				fff
+			</div>
 		</div> <!-- /container -->
 	</body>
 </html>
