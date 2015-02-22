@@ -22,16 +22,27 @@
 			<div class="col-sm-3">
 				<div class="nav-header">
 					친구목록
+					<a href="#"><span class="glyphicon glyphicon-repeat pull-right"></span></a>
+				</div>
+				<div class="contents_list" id="friend_list">
+					bbb
 				</div>
 			</div>
 			<div class="col-sm-6">
 				<div class="nav-header">
 					~ 님과 채팅 중
 				</div>
+				<div class="chat" id="chat">
+					DD
+				</div>
 			</div>
 			<div class="col-sm-3">
 				<div class="nav-header">
 					채팅목록
+					<a href="#"><span class="glyphicon glyphicon-repeat pull-right"></span></a>
+				</div>
+				<div class="contents_list" id="chatting_list">
+					aaaaa
 				</div>
 			</div>
 		</div> <!-- /container -->

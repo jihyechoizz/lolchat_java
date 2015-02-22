@@ -16,7 +16,16 @@ body { background-color: #50718B; }
 .col-sm-3 { background-color: #183C57; padding: 0px !important; }
 .col-sm-3 .nav-header { color: #C6D6E2; font-size: 12px; background-color: #043153; width: 100%; padding: 5px; margin: 0px; }
 
+.col-sm-3 .contents_list { background-color: #164970; color: #AEC5D6; }
+
 .col-sm-6 { background-color: #333; padding: 0px !important; }
 .col-sm-6 .nav-header { color: #C6D6E2; font-size: 12px; background-color: #04467C; width: 100%; padding: 5px; margin: 0px; }
+
+.col-sm-6 .chat { background-color: #2D5675; }
+
+a:HOVER .glyphicon-repeat { color: #D1D4D6; }
+a:ACTIVE .glyphicon-repeat { color: #D1D4D6; }
+a:VISITED .glyphicon-repeat { color: #D1D4D6; }
+a:LINK .glyphicon-repeat { color: #D1D4D6; }
 
 
