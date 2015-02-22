@@ -7,6 +7,7 @@
 		<script src="asserts/lib/js/jquery-2.1.3.min.js"></script>
 		<script src="asserts/lib/js/jquery-migrate-1.2.1.min.js"></script>
 		<script src="asserts/lib/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="asserts/lib/css/common.css">
 		<link rel="stylesheet" href="asserts/lib/css/bootstrap.min.css">
 		<link rel="stylesheet" href="asserts/lib/css/bootstrap-theme.min.css">
 		<link rel="stylesheet" href="asserts/css/index.css">
