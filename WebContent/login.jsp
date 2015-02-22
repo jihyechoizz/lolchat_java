@@ -15,6 +15,7 @@
 			response.sendRedirect("index.jsp?error=true");
 		} else {
 			session.setAttribute("id", user.getId());
+			session.setAttribute("pw", user.getPw());
 			response.sendRedirect("chat.jsp");
 		}
 	}

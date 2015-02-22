@@ -8,4 +8,7 @@ public class TestUserInfo {
 	public static String pw = "chlwP3";
 	
 	
+	public static String TEST_PVP_ID = "sum1243410@pvp.net";
+	
+	
 }
