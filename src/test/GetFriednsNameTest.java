@@ -12,7 +12,7 @@ import com.github.theholywaffle.lolchatapi.wrapper.FriendGroup;
 
 public class GetFriednsNameTest {
 
-//	@Test
+	@Test
 	public void test1(){
 		LolChat api = new LolChat(ChatServer.KR,
 				FriendRequestPolicy.ACCEPT_ALL, new RiotApiKey("",
@@ -28,7 +28,7 @@ public class GetFriednsNameTest {
 		}
 	}	
 	
-	@Test
+//	@Test
 	public void test2(){
 		LolChat api = new LolChat(ChatServer.KR,
 				FriendRequestPolicy.ACCEPT_ALL, new RiotApiKey("",
