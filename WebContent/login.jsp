@@ -5,12 +5,7 @@
 <% 
 	user.setId(request.getParameter("id"));
 	user.setPw(request.getParameter("pw"));
-%>
-<!doctype html>
-<html>
-	<head></head>
-	<body>
-	<%
+	
 	// ID & PW null check
 	if((user.getId() == null || user.getId().length() == 0) || (user.getPw() == null || user.getPw().length() == 0) ){
 			response.sendRedirect("index.jsp?error=true");
@@ -24,8 +19,3 @@
 		}
 	}
 	%>
-		
-	
-	</body>
-</html>
-

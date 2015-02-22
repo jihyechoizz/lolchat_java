@@ -13,7 +13,7 @@
 	</head>
 	<body>
 	<% 
-		if(request.getParameter("error").equals("true")){
+		if(request.getParameter("error") != null && request.getParameter("error").equals("true")){
 			%> <script>alert("ID/PW 를 확인하세요.")</script> <%
 		}
 	%>
