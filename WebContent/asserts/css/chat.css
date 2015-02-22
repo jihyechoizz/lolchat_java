@@ -16,12 +16,12 @@ body { background-color: #50718B; }
 .col-sm-3 { background-color: #183C57; padding: 0px !important; }
 .col-sm-3 .nav-header { color: #C6D6E2; font-size: 12px; background-color: #043153; width: 100%; padding: 5px; margin: 0px; }
 
-.col-sm-3 .contents_list { background-color: #164970; color: #AEC5D6; }
+.col-sm-3 .contents_list { background-color: #164970; color: #AEC5D6; height: 500px; overflow-x: hidden; overflow-y: scroll; }
 
 .col-sm-6 { background-color: #333; padding: 0px !important; }
 .col-sm-6 .nav-header { color: #C6D6E2; font-size: 12px; background-color: #04467C; width: 100%; padding: 5px; margin: 0px; }
 
-.col-sm-6 .chat { background-color: #2D5675; }
+.col-sm-6 .chat { background-color: #2D5675; height: 500px; overflow-x: hidden; overflow-y: scroll; }
 
 a:HOVER .glyphicon-repeat { color: #D1D4D6; }
 a:ACTIVE .glyphicon-repeat { color: #D1D4D6; }
@@ -30,15 +30,51 @@ a:LINK .glyphicon-repeat { color: #D1D4D6; }
 
 /* friend list */
 .friends { font-size: 11px; padding: 7px 5px !important; width: 100%; border-bottom: 1px; border-bottom-style: solid; border-bottom-color: #30668F; }
-.friends a:LINK { color: #AEC5D6; }
-.friends a:ACTIVE { color: #AEC5D6; }
-.friends a:VISITED { color: #AEC5D6; }
-.friends a:LINK { color: #AEC5D6; }
-
+.friends a:LINK { color: #AEC5D6; text-decoration: none; }
+.friends a:ACTIVE { color: #AEC5D6; text-decoration: none; }
+.friends a:VISITED { color: #AEC5D6; text-decoration: none; }
+.friends a:LINK { color: #AEC5D6; text-decoration: none; }
+.friends a:HOVER { color: #AEC5D6; text-decoration: none; }
 
 /* chat list */
 .chats { font-size: 11px; padding: 7px 5px !important; width: 100%; border-bottom: 1px; border-bottom-style: solid; border-bottom-color: #30668F; }
-.chats a:LINK { color: #AEC5D6; }
-.chats a:ACTIVE { color: #AEC5D6; }
-.chats a:VISITED { color: #AEC5D6; }
-.chats a:LINK { color: #AEC5D6; }
+.chats .glyphicon { font-size: 12px; color: #FD1117; }
+.chats a:LINK { color: #AEC5D6; text-decoration: none; }
+.chats a:ACTIVE { color: #AEC5D6; text-decoration: none; }
+.chats a:VISITED { color: #AEC5D6; text-decoration: none; }
+.chats a:LINK { color: #AEC5D6; text-decoration: none; }
+.chats a:HOVER { color: #AEC5D6; text-decoration: none; }
+
+/* chatting */
+.chatting { padding: 10px; }
+.chatting .chat_contents { width: 100%; float: left; padding: 3px 0px; }
+.other {
+	float: left; 
+	word-break: break-all; 
+	max-width: 200px;
+	padding: 4px 7px;
+	text-align: left;
+	background-color: #B9ADFB;
+	border: 1px solid #cccccc;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 6px;
+	-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	background-clip: padding-box;
+	font-size: 11px;
+}
+.me {
+	float: right; 
+	word-break: break-all; 
+	max-width: 200px;
+	padding: 4px 7px;
+	text-align: right;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 6px;
+	-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	background-clip: padding-box;
+	font-size: 11px;
+}

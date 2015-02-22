@@ -7,6 +7,7 @@
 		<script src="asserts/lib/js/jquery-2.1.3.min.js"></script>
 		<script src="asserts/lib/js/jquery-migrate-1.2.1.min.js"></script>
 		<script src="asserts/lib/js/bootstrap.min.js"></script>
+		<script src="asserts/js/chat.js"></script>
 		<link rel="stylesheet" href="asserts/lib/css/common.css">
 		<link rel="stylesheet" href="asserts/lib/css/bootstrap.min.css">
 		<link rel="stylesheet" href="asserts/lib/css/bootstrap-theme.min.css">
@@ -80,8 +81,12 @@
 					~ 님과 채팅 중
 				</div>
 				<div class="chat" id="chat">
-					DD
+					<%@ include file="chatting.jsp" %>
 				</div>
+				<!-- <div>
+					<input type="text" name="context" id="context">
+					<button type="button" class="btn btn-primary">전 송</button>
+				</div> -->
 			</div>
 			<div class="col-sm-3">
 				<div class="nav-header">
@@ -100,6 +105,7 @@
 					</div>
 					<div class="chats"> <!-- id에는 소환사 고유id 들어갈 예정 -->
 						<a href="#">'소환사아이디' 님과의 채팅</a>
+						<span class="glyphicon glyphicon-star pull-right"></span>
 					</div>
 					<div class="chats"> <!-- id에는 소환사 고유id 들어갈 예정 -->
 						<a href="#">'소환사아이디' 님과의 채팅</a>
@@ -115,9 +121,11 @@
 					</div>
 					<div class="chats"> <!-- id에는 소환사 고유id 들어갈 예정 -->
 						<a href="#">'소환사아이디' 님과의 채팅</a>
+						<span class="glyphicon glyphicon-star pull-right"></span>
 					</div>
 					<div class="chats"> <!-- id에는 소환사 고유id 들어갈 예정 -->
 						<a href="#">'소환사아이디' 님과의 채팅</a>
+						<span class="glyphicon glyphicon-star pull-right"></span>
 					</div>
 					<div class="chats"> <!-- id에는 소환사 고유id 들어갈 예정 -->
 						<a href="#">'소환사아이디' 님과의 채팅</a>
