@@ -13,11 +13,13 @@
 	</head>
 	<body>
 		<div class="container">
+			<div class="collapse navbar-collapse">
+				<a href="#"><span class="glyphicon glyphicon-cog pull-right"></span></a>
+			</div>
+		</div>
+		<div class="container">
 			<div class="col-sm-3">
-				<ul>
-					<li class="active"><a href="#">친구</a></li>
-					<li><a href="#">채팅</a></li>
-				</ul>
+				
 			</div>
 			<div class="col-sm-9">
 				fff

@@ -1,11 +1,21 @@
 @CHARSET "UTF-8";
 
-body { background-color: #123478; }
+body { background-color: #50718B; }
 
 .container { max-width: none !important; width: 980px; }
 
+.container .navbar-collapse { background-color: #305571; padding-top: 2px; padding-bottom: 5px; }
+
+.navbar-collapse { height: 30px; }
+.navbar-collapse .glyphicon { font-size: 25px; }
+.navbar-collapse a:HOVER { color: #333; }
+.navbar-collapse a:ACTIVE { color: #333; }
+.navbar-collapse a:VISITED { color: #333; }
+.navbar-collapse a:LINK { color: #333; }
+
 .col-sm-3 { background-color: #1E096C; padding: 0px !important; }
-.col-sm-3 ul { padding-left: 0; margin-bottom: 0; list-style: none; }
-.col-sm-3 li { float: left; width: 50%; text-align: center; }
+.col-sm-3 .nav ul { padding-left: 0; margin-bottom: 0; list-style: none; }
+.col-sm-3 .nav li { float: left; text-align: center;  padding-left: 0; margin-bottom: 0; }
 
 .col-sm-9 { background-color: #333; }
+
