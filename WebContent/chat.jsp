@@ -7,6 +7,7 @@
 		<script src="asserts/lib/js/jquery-2.1.3.min.js"></script>
 		<script src="asserts/lib/js/jquery-migrate-1.2.1.min.js"></script>
 		<script src="asserts/lib/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="asserts/lib/css/common.css">
 		<link rel="stylesheet" href="asserts/lib/css/bootstrap.min.css">
 		<link rel="stylesheet" href="asserts/lib/css/bootstrap-theme.min.css">
 		<link rel="stylesheet" href="asserts/css/chat.css">
@@ -19,10 +20,19 @@
 		</div>
 		<div class="container">
 			<div class="col-sm-3">
-				
+				<div class="nav-header">
+					친구목록
+				</div>
 			</div>
-			<div class="col-sm-9">
-				fff
+			<div class="col-sm-6">
+				<div class="nav-header">
+					~ 님과 채팅 중
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="nav-header">
+					채팅목록
+				</div>
 			</div>
 		</div> <!-- /container -->
 	</body>

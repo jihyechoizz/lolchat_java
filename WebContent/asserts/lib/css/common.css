@@ -1,0 +1,4 @@
+@CHARSET "UTF-8";
+
+@font-face{font-family:'Nanum Gothic'; src:url('../fonts/NanumGothic.ttf')}
+body, table, div, p {font-family:'Nanum Gothic';}
