@@ -25,7 +25,54 @@
 					<a href="#"><span class="glyphicon glyphicon-repeat pull-right"></span></a>
 				</div>
 				<div class="contents_list" id="friend_list">
-					bbb
+					<div class="friends"> <!-- id에는 소환사 고유id 들어갈 예정 -->
+						<a href="#">소환사아이디</a>
+					</div>
+					<div class="friends"> <!-- id에는 소환사 고유id 들어갈 예정 -->
+						<a href="#">소환사아이디</a>
+					</div>
+					<div class="friends"> <!-- id에는 소환사 고유id 들어갈 예정 -->
+						<a href="#">소환사아이디</a>
+					</div>
+					<div class="friends"> <!-- id에는 소환사 고유id 들어갈 예정 -->
+						<a href="#">소환사아이디</a>
+					</div>
+					<div class="friends"> <!-- id에는 소환사 고유id 들어갈 예정 -->
+						<a href="#">소환사아이디</a>
+					</div>
+					<div class="friends"> <!-- id에는 소환사 고유id 들어갈 예정 -->
+						<a href="#">소환사아이디</a>
+					</div>
+					<div class="friends"> <!-- id에는 소환사 고유id 들어갈 예정 -->
+						<a href="#">소환사아이디</a>
+					</div>
+					<div class="friends"> <!-- id에는 소환사 고유id 들어갈 예정 -->
+						<a href="#">소환사아이디</a>
+					</div>
+					<div class="friends"> <!-- id에는 소환사 고유id 들어갈 예정 -->
+						<a href="#">소환사아이디</a>
+					</div>
+					<div class="friends"> <!-- id에는 소환사 고유id 들어갈 예정 -->
+						<a href="#">소환사아이디</a>
+					</div>
+					<div class="friends"> <!-- id에는 소환사 고유id 들어갈 예정 -->
+						<a href="#">소환사아이디</a>
+					</div>
+					<div class="friends"> <!-- id에는 소환사 고유id 들어갈 예정 -->
+						<a href="#">소환사아이디</a>
+					</div>
+					<div class="friends"> <!-- id에는 소환사 고유id 들어갈 예정 -->
+						<a href="#">소환사아이디</a>
+					</div>
+					<div class="friends"> <!-- id에는 소환사 고유id 들어갈 예정 -->
+						<a href="#">소환사아이디</a>
+					</div>
+					<div class="friends"> <!-- id에는 소환사 고유id 들어갈 예정 -->
+						<a href="#">소환사아이디</a>
+					</div>
+					<div class="friends"> <!-- id에는 소환사 고유id 들어갈 예정 -->
+						<a href="#">소환사아이디</a>
+					</div>
 				</div>
 			</div>
 			<div class="col-sm-6">
@@ -42,7 +89,54 @@
 					<a href="#"><span class="glyphicon glyphicon-repeat pull-right"></span></a>
 				</div>
 				<div class="contents_list" id="chatting_list">
-					aaaaa
+					<div class="chats"> <!-- id에는 소환사 고유id 들어갈 예정 -->
+						<a href="#">'소환사아이디' 님과의 채팅</a>
+					</div>
+					<div class="chats"> <!-- id에는 소환사 고유id 들어갈 예정 -->
+						<a href="#">'소환사아이디' 님과의 채팅</a>
+					</div>
+					<div class="chats"> <!-- id에는 소환사 고유id 들어갈 예정 -->
+						<a href="#">'소환사아이디' 님과의 채팅</a>
+					</div>
+					<div class="chats"> <!-- id에는 소환사 고유id 들어갈 예정 -->
+						<a href="#">'소환사아이디' 님과의 채팅</a>
+					</div>
+					<div class="chats"> <!-- id에는 소환사 고유id 들어갈 예정 -->
+						<a href="#">'소환사아이디' 님과의 채팅</a>
+					</div>
+					<div class="chats"> <!-- id에는 소환사 고유id 들어갈 예정 -->
+						<a href="#">'소환사아이디' 님과의 채팅</a>
+					</div>
+					<div class="chats"> <!-- id에는 소환사 고유id 들어갈 예정 -->
+						<a href="#">'소환사아이디' 님과의 채팅</a>
+					</div>
+					<div class="chats"> <!-- id에는 소환사 고유id 들어갈 예정 -->
+						<a href="#">'소환사아이디' 님과의 채팅</a>
+					</div>
+					<div class="chats"> <!-- id에는 소환사 고유id 들어갈 예정 -->
+						<a href="#">'소환사아이디' 님과의 채팅</a>
+					</div>
+					<div class="chats"> <!-- id에는 소환사 고유id 들어갈 예정 -->
+						<a href="#">'소환사아이디' 님과의 채팅</a>
+					</div>
+					<div class="chats"> <!-- id에는 소환사 고유id 들어갈 예정 -->
+						<a href="#">'소환사아이디' 님과의 채팅</a>
+					</div>
+					<div class="chats"> <!-- id에는 소환사 고유id 들어갈 예정 -->
+						<a href="#">'소환사아이디' 님과의 채팅</a>
+					</div>
+					<div class="chats"> <!-- id에는 소환사 고유id 들어갈 예정 -->
+						<a href="#">'소환사아이디' 님과의 채팅</a>
+					</div>
+					<div class="chats"> <!-- id에는 소환사 고유id 들어갈 예정 -->
+						<a href="#">'소환사아이디' 님과의 채팅</a>
+					</div>
+					<div class="chats"> <!-- id에는 소환사 고유id 들어갈 예정 -->
+						<a href="#">'소환사아이디' 님과의 채팅</a>
+					</div>
+					<div class="chats"> <!-- id에는 소환사 고유id 들어갈 예정 -->
+						<a href="#">'소환사아이디' 님과의 채팅</a>
+					</div>
 				</div>
 			</div>
 		</div> <!-- /container -->

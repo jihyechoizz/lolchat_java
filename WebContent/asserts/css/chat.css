@@ -28,4 +28,17 @@ a:ACTIVE .glyphicon-repeat { color: #D1D4D6; }
 a:VISITED .glyphicon-repeat { color: #D1D4D6; }
 a:LINK .glyphicon-repeat { color: #D1D4D6; }
 
+/* friend list */
+.friends { font-size: 11px; padding: 7px 5px !important; width: 100%; border-bottom: 1px; border-bottom-style: solid; border-bottom-color: #30668F; }
+.friends a:LINK { color: #AEC5D6; }
+.friends a:ACTIVE { color: #AEC5D6; }
+.friends a:VISITED { color: #AEC5D6; }
+.friends a:LINK { color: #AEC5D6; }
 
+
+/* chat list */
+.chats { font-size: 11px; padding: 7px 5px !important; width: 100%; border-bottom: 1px; border-bottom-style: solid; border-bottom-color: #30668F; }
+.chats a:LINK { color: #AEC5D6; }
+.chats a:ACTIVE { color: #AEC5D6; }
+.chats a:VISITED { color: #AEC5D6; }
+.chats a:LINK { color: #AEC5D6; }
